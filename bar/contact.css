@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #494949;
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    flex-direction: column;
+
+}
+nav a{
+    text-decoration: none;
+    color: #ccc;
+    font: bold;
+    margin-bottom: 15px;
+    background-color: #494949;
+    padding: 7px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 15px;
+    transition: .3s
+}
+nav a:hover{
+    background-color: rgb(33, 77, 5);
+
+}
+span{
+    color: rgb(103, 103, 243);
+}
+header{
+    background-color: aqua;
+    height: 100vh;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #272727;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.formu{
+    
+    text-align: center;
+    
+   
+}
+.formulaire{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    padding: 10px;
+    background-color:white;
+    
+}
+h1{
+    margin-left: 35%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+form{
+    background-color:white;
+    margin-left: 15%;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgb(256, 0, 0,0.2);
+    height: 70vh;
+    margin-top: 150px;
+    margin-bottom: 5px;
+    width: 700px;
+    box-shadow: 0px 0px 8px rgb(103, 103, 243),0px 0px 12px rgb(103, 103, 243),0px 0px 16px rgb(103, 103, 243);
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(33, 77, 5);
+}
+form .separation{
+    color: blue;
+    width: 100%;
+    height: 1px;
+}
+.droite{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 5px;
+    margin-bottom: 1rem;
+    margin-top: 3px;
+    border-radius: 5px;
+    border-top: none;
+}
+
+    
+
+button{
+    padding: 8px;
+    background-color: rgb(33, 77, 5);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+textarea{
+    border-radius: 5px;
+}
+#contact{
+    margin-top: 10px;
+    padding-top: 15px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10rem;
+    border-top: 3px solid black;
+}
